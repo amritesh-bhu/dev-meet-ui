@@ -1,8 +1,8 @@
 export const NavBar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-300 shadow-lg">
             <div className="flex-1 ml-10">
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl font-bold font-stretch-ultra-condensed">daisyUI</a>
             </div>
             <div className="flex gap-2">
                 <div className="dropdown dropdown-end">
@@ -12,7 +12,7 @@ export const NavBar = () => {
                                 alt="Tailwind CSS Navbar component"
                                 src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
                         </div>
-                    </div>
+                    </div>  
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
